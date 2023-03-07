@@ -9,8 +9,8 @@ type Order struct {
 	FinalPrice float64
 }
 
-func NewOrder(id string, price, tax, finalPrice float64) (*Order, error) {
-	order := &Order{id, price, tax, finalPrice}
+func NewOrder(id string, price, tax float64) (*Order, error) {
+	order := &Order{ID: id, Price: price, Tax: tax}
 	err := order.Validate()
 	if err != nil {
 		return nil, err
