@@ -5,6 +5,7 @@ go 1.20
 require (
 	github.com/confluentinc/confluent-kafka-go v1.9.2
 	github.com/stretchr/testify v1.8.2
+	gocv.io/x/gocv v0.32.1
 	modernc.org/sqlite v1.21.0
 )
 
