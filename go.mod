@@ -2,7 +2,11 @@ module github/pgabrieldeveloper/intensivo_go
 
 go 1.20
 
-require github.com/stretchr/testify v1.8.2
+require (
+	github.com/confluentinc/confluent-kafka-go v1.9.2
+	github.com/stretchr/testify v1.8.2
+	modernc.org/sqlite v1.21.0
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -24,7 +28,6 @@ require (
 	modernc.org/mathutil v1.5.0 // indirect
 	modernc.org/memory v1.5.0 // indirect
 	modernc.org/opt v0.1.3 // indirect
-	modernc.org/sqlite v1.21.0 // indirect
 	modernc.org/strutil v1.1.3 // indirect
 	modernc.org/token v1.0.1 // indirect
 )
